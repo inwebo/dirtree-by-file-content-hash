@@ -1,0 +1,33 @@
+{
+    "name": "inwebo/file-name-hashing",
+    "description": "How can one store a large number of files while maintaining a high level of performance during access?",
+    "type": "component",
+    "license": "GPL-3.0-or-later",
+    "autoload": {
+        "psr-4": {
+            "Inwebo\\FileNameHashing\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Inwebo\\FileNameHashing\\Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Inwebo",
+            "email": "github@inwebo.net"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.2"
+    },
+    "scripts": {
+        "php-cs-fixer": "vendor/bin/php-cs-fixer fix -vvv"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.4",
+        "friendsofphp/php-cs-fixer": "^3.34"
+    }
+}
