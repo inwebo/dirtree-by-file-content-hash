@@ -1,5 +1,5 @@
 {
-    "name": "inwebo/file-name-hashing",
+    "name": "inwebo/dirtree-by-file-content-hash",
     "description": "How can one store a large number of files while maintaining a high level of performance during access?",
     "type": "component",
     "license": "GPL-3.0-or-later",
