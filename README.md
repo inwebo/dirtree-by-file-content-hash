@@ -1,5 +1,5 @@
 # file-name-hashing
-How can one store a large number of files while maintaining a high level of performance during access? One solution is file name hashing.
+How can one store a large number of files while maintaining a high level of performance during access? One solution is file content hashing.
 
 This class will generate SHA 512 hash from the content of a file, and it will return you a directory structure based on
 the file hash.
