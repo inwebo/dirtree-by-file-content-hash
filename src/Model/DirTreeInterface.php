@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Inwebo\FileNameHashing\Model;
+namespace Inwebo\DirTree\Model;
 
 interface DirTreeInterface
 {
